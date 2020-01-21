@@ -9,6 +9,6 @@ line 48, change the ring/headlightEnable to transform_deck/tfmEnable
 and drivers/interface respectively.
 2. Add to the Makefile
 #Drivers
-PROJ_OBJ_CF2 += transform.o
-#DECK API
-PROJ_OBJ_CF2 += transform_deck.o
+PROJ_OBJ += transform.o (the name of the file added to drivers/src)
+#DECKs
+PROJ_OBJ += transform_deck.o (the name of the file added to deck/drivers/src)
