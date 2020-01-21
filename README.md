@@ -1,5 +1,5 @@
 # crazyflie_transform
-Add a new PWM output using crazyflie. I use GPIO_IO1 to output a PWM signal to control a servomotor to achieve transformation.
+Add a new PWM output using crazyflie. I use GPIO_IO1 (PB8) to output a PWM signal to control a servomotor to achieve transformation.
 The files are modified from the piezo.c
 In the ROS, I use button 0 to control transformation. 
 In the file, crazyflie_ros/crazyflie_demo/scripts
