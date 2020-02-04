@@ -12,3 +12,6 @@ and drivers/interface respectively.
 PROJ_OBJ += transform.o (the name of the file added to drivers/src)
 #DECKs
 PROJ_OBJ += transform_deck.o (the name of the file added to deck/drivers/src)
+
+The Transform_via_Py is a python script, used for crazyflie flying a circle. The PWM output status changes during fly. Refer to the following website 
+https://www.bitcraze.io/getting-started-with-stem-ranging-bundle/
